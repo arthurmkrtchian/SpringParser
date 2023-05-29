@@ -1,0 +1,158 @@
+.empty-wb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  border: 5px dashed #e7e7e7;
+  height: 300px;
+  border-radius: 40px;
+}
+
+.empty-heading {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-screen-container {
+  margin-top: 60px;
+}
+
+.form-container {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-visit-link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.form-buttons button {
+  min-width: 80px;
+}
+
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-xs {
+  --bs-icon-size: 1rem;
+  width: calc(var(--bs-icon-size) * 1.5);
+  height: calc(var(--bs-icon-size) * 1.5);
+}
+
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon-lg {
+  --bs-icon-size: 2rem;
+}
+
+.bs-icon-xl {
+  --bs-icon-size: 2.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-primary-light {
+  color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), .2);
+}
+
+.bs-icon.bs-icon-semi-white {
+  color: var(--bs-primary);
+  background: rgba(255, 255, 255, .5);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
+}
+
+
+
+.websites-container {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+.edit-button {
+  margin-right: 8px;
+}
+
+.ws-card {
+  max-width: 300px;
+  min-width: 280px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.add-ws-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-horizontal-group {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  /*gap: 10px;*/
+  align-items: baseline;
+}
+
+.form-horizontal-group-text {
+  text-align: right;
+  vertical-align: baseline;
+  margin-right: 10px;
+}
+
+.add-website-modal-icon {
+  margin-right: 8px;
+}
